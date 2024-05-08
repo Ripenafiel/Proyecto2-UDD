@@ -64,7 +64,6 @@ https://github.com/Ripenafiel/Proyecto2-UDD
 
 Antes de empezar con las pruebas y con todo lo anterior en funcionamiento, prepararemos los programas.
 - Primero debemos dirigirnos al siguiente siguiente enlace que contiene el codigo a ejecutar: _**"https://github.com/Ripenafiel/Proyecto2-UDD"**_.
-
 - Una vez que ingresemos a esta página, encontraremos dos carpetas denominadas _**PF**_  y  _**POO**_  que corresponden al proyecto en cuestión en sus dos versiones: Programación Funcional y Programación Orientada a Objetos.
 - Abriremos las carpetas con la herramienta _**Visual Studio Code**_.
 - Ahora para probar el código escrito en _**JavaScrypt**_, seleccionaremos con el botón derecho del "mouse" ambos archivos con la extensión ._**html**_ y seleccionaremos _**Open with Live Server**_.
@@ -73,9 +72,30 @@ Antes de empezar con las pruebas y con todo lo anterior en funcionamiento, prepa
 
 ### Analice las pruebas end-to-end 
 
-#### 1. Nota
+#### 1. Nota 1
 
-La descripción del código se encuentra en el archivo _**PF.js**_, por lo que se debe inspeccionar antes de abrir el archivo _**POO.js**_, ya que este último es solo una transcripción o reestructuración del código original _**PF**_ hecho en _**POO**_ 
+La descripción del código se encuentra en el archivo _**PF.js**_, por lo que se debe inspeccionar antes de abrir el archivo _**POO.js**_, ya que este último es solo una transcripción o reestructuración del código original _**PF**_ hecho en _**POO**_.
+
+#### 1. Nota 2
+
+Lo anterior se hace posible gracias a que el archivo _**PF.html**_ y el archivo _**POO.html**_; se encuentran enlazados con su contraparte  _**PF.js**_ y  _**PF.js**_ respectivamente. Este enlace se realiza mediante el extracto de código _**<script src="PF.js"></script>**_ y <script src="POO.js"></script> respectivamente.
+Para realizar esto se debe crear un archivo con extensión ._**html**_, una vez abierto escribir _**html**_ y seleccionar la opción que nos muestre el siguiente código:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="PF.js"></script>
+</body>
+</html>
+
+```
+Finalmente se deben nombrar ambos archivos de igual manera pero con extensiones distintas; uno con extensión ._**js**_ y el otro ._**html**_, para luego reemplazar el "<body>" del archivo.html con lo anteriormente mencionado _**<script src="archivo.js"></script>**_ en este caso.
 
 ## Terminando
 
