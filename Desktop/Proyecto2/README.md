@@ -1,6 +1,6 @@
 ## Proyecto 2 Bootcamp UDD Cohort 13
 
-El proyecto trata sobre la creación de un código en JavaScrypt que permita los usuarios la creación de encuestas con opciones de respuestas en las cuales se pueda votar. El código debe realizarse con Programación Funcional (PF) y con Programación Orientada a Objetos (POO).
+El proyecto trata sobre la creación de un código en JavaScrypt que permita los usuarios la creación de encuestas con opciones de respuestas en las cuales se pueda votar. El código debe realizarse con _**Programación Funcional (PF)**_ y con _**Programación Orientada a Objetos (POO).**_
 Para esto se requiere la utilización de las siguientes herramientas:
 
 1. Visual Studio Code
