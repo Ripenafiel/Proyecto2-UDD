@@ -33,6 +33,7 @@ Como pre-requisitos hay que tener instalado los programas _**Visual Studio Code*
 ``` 
 VSCode
 console.log("Hola Mundo")
+//Este código permitirá ver en la consola del navegador Hola Mundo.
 
 ```
 
