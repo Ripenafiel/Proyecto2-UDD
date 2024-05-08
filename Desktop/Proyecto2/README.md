@@ -32,7 +32,7 @@ Como pre-requisitos hay que tener instalado los programas _**Visual Studio Code*
 ##### Ejemplo:
 ``` 
 VSCode
-console.log("HolaMundo)
+console.log("Hola Mundo")
 
 ```
 
